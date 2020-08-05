@@ -1,0 +1,12 @@
+# Get all entries
+GET http://localhost:3003/api/blogs
+
+# Add new entry
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+{
+    "title": "Test Blog Title",
+    "author": "Test Author",
+    "url": "https://example.com",
+    "likes": 10
+}
